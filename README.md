@@ -11,9 +11,10 @@ This project is an accurate 3D model and structural breakdown of the SpaceX Star
   * Hot-staging ring (interstage)
   * Grid fins (aerodynamic control surfaces)
   * Engine bay layout (central cluster and outer ring of Raptor engines)
-
-## 🖼️ Visualizations & Renders
-*(Здесь вы можете загрузить скриншоты вашей модели, перетащив их прямо в окно редактора GitHub)*
+ 
+## 🕹️ Interactive 3D Model
+You can view and rotate the 3D model of the Starship V3 Super Heavy booster directly in your browser:
+👉 [Click here to view the Interactive 3D Model](https://github.com/farorizero2-ux/starship_V3_blender-project/blob/main/starship_V3.glb)
 
 ## 📂 Project Files
 * starship_v3_booster.blend — Main Blender source file.
