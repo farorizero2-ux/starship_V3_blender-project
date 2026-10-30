@@ -1,58 +1,33 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starship V3 - 3D Model</title>
-    <!-- Подключаем официальный скрипт для просмотра 3D от Google -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
     <style>
         body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: #111;
-            font-family: sans-serif;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            overflow: hidden; background-color: #111;
+            font-family: sans-serif; color: #fff;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
         }
-        h1 {
-            margin: 10px 0;
-            font-size: 20px;
-        }
+        h1 { margin: 10px 0; font-size: 20px; }
         .container {
-            width: 90%;
-            max-width: 1000px;
-            height: 80vh;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-            background: #1a1a1a;
+            width: 90%; max-width: 1000px; height: 80vh;
+            border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
-        model-viewer {
-            width: 100%;
-            height: 100%;
-        }
+        iframe { width: 100%; height: 100%; border: none; }
     </style>
 </head>
 <body>
-
     <h1>Starship V3 (Super Heavy Booster)</h1>
-    
     <div class="container">
-        <!-- Загружаем вашу .glb модель прямо из репозитория -->
-        <img alt="Starship V3 3D model" src="starship_V3.glb">
-        <model-viewer src="starship_V3.glb" 
-                      camera-controls 
-                      auto-rotate 
-                      shadow-intensity="1">
-        </model-viewer>
+        <!-- Сюда вставьте ваш скопированный iframe со Sketchfab -->
+        <iframe src="https://sketchfab.com/models/5c708fc133ba42f5bf336edbd5538a9c/embed" 
+                allow="autoplay; fullscreen; vr" 
+                mozallowfullscreen="true" 
+                webkitallowfullscreen="true">
+        </iframe>
     </div>
-
 </body>
 </html>
