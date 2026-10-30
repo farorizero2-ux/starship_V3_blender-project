@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starship V3 - 3D Model</title>
+    <!-- Подключаем официальный скрипт для просмотра 3D от Google -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
     <style>
         body, html {
             margin: 0;
@@ -30,11 +32,11 @@
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            background: #1a1a1a;
         }
-        iframe {
+        model-viewer {
             width: 100%;
             height: 100%;
-            border: none;
         }
     </style>
 </head>
@@ -43,12 +45,13 @@
     <h1>Starship V3 (Super Heavy Booster)</h1>
     
     <div class="container">
-        <!-- Ваш код вставки со Sketchfab -->
-        <iframe src="https://sketchfab.com/3d-models/starship-v3-5c708fc133ba42f5bf336edbd5538a9c/properties" 
-                allow="autoplay; fullscreen; vr" 
-                mozallowfullscreen="true" 
-                webkitallowfullscreen="true">
-        </iframe>
+        <!-- Загружаем вашу .glb модель прямо из репозитория -->
+        <img alt="Starship V3 3D model" src="starship_V3.glb">
+        <model-viewer src="starship_V3.glb" 
+                      camera-controls 
+                      auto-rotate 
+                      shadow-intensity="1">
+        </model-viewer>
     </div>
 
 </body>
