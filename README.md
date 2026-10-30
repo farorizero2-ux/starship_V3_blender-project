@@ -14,7 +14,7 @@ This project is an accurate 3D model and structural breakdown of the SpaceX Star
  
 ## 🕹️ Interactive 3D Model
 You can view and rotate the 3D model of the Starship V3 Super Heavy booster directly in your browser:
-(https://farorizero-ux.github.io/starship_V3_blender-project/)
+(https://farorizero2-ux.github.io/starship_V3_blender-project/)
 ## 📂 Project Files
 * starship_v3_booster.blend — Main Blender source file.
 * exports/ — Exported formats (.obj, .stl) ready for 3D printing or further engineering analysis.
